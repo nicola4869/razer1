@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="css/commom.css"/>
+  <link rel="stylesheet" href="css/bootstrap.css"/>
+  <link rel="stylesheet" href="css/razer.css"/>
+</head>
+<body style="background: #111111">
+<!--导航部分-->
+<nav>
+  <div class="flex">
+    <a href="store_log.html">登陆</a>
+    <a href="store_register.html">注册</a>
+  </div>
+</nav>
+<!--全部商品分类-->
+<section class="container">
+  <div class="nav_logo">
+    <img src="img/logo.png" alt="" class="lf"/>
+    <form class="form-inline has-feedback rt">
+      <div class="form-group">
+        <span class="form-control-feedback glyphicon glyphicon-search" style="left:0;"></span>
+        <input type="text" class="form-control" style="background: #1F1F1F;border-color: #333333"/>
+        <a href="cart.html" class="nav_btn white">
+          <img src="" alt="" class="glyphicon glyphicon-shopping-cart"/>
+          购物车
+        </a>
+      </div>
+    </form>
+  </div>
+  <div>
+    <ul class="nav_menu">
+      <li id="allProduct">
+        <a href="#" style="background: #00A000;width:220px;" class="white">全部商品分类</a>
+        <div>
+          <ul class="cart_menu">
+            <li>
+              <div>
+                <h4>鼠标</h4>
+                <div>
+                  <a href="#">人体工程学</a>
+                  <a href="#"> 双手通用</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>键盘</h4>
+                <div>
+                  <a href="#">机械键盘</a>
+                  <a href="#"> 薄膜键盘</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>游戏鼠标垫</h4>
+                <div>
+                  <a href="#">软垫</a>
+                  <a href="#"> 硬垫</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>音频</h4>
+                <div class="drowp-right">
+                  <a href="#">耳麦</a>
+                  <a href="#"> 耳塞</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>周边配件</h4>
+                <div>
+                  <a href="#">集线器</a>
+                  <a href="#"> 周边配件</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>笔记本电脑</h4>
+                <div>
+                  <a href="#">灵刃潜行版</a>
+                  <a href="#"> 灵刃</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li style="background:#000;width:920px;">
+        <a href="Razer_store.html" class="white">首页</a>
+      </li>
+    </ul>
+  </div>
+  <!--productIntr-->
+  <div id="productIntr">
+    <div class="preview">
+      <!--左：商品图片-->
+      <div id="mediumDiv" style="width: 500px;height: 500px;">
+        <img id="mImg" style="width: 500px;height: 500px;" src="img/Razer03/374_P_1487828902117.png" alt=""/>
+        <div class="mask"></div>
+        <div class="superMask"></div>
+      </div>
+      <div class="largeDiv"></div>
+      <h1>
+        <a class="backward"><</a>
+        <ul id="iconList">
+          <li><img src="img/Razer03/374_thumb_P_1487828902680.jpg" alt=""/></li>
+          <li><img src="img/Razer03/374_thumb_P_1487828903505.jpg" alt=""/></li>
+          <li><img src="img/Razer03/374_thumb_P_1487828927651.jpg" alt=""/></li>
+          <li><img src="img/Razer03/374_thumb_P_1487828946218.jpg" alt=""/></li>
+          <li><img src="img/Razer03/374_thumb_P_1487828977863.jpg" alt=""/></li>
+          <li><img src="img/Razer03/374_thumb_P_1487828991879.jpg" alt=""/></li>
+          <li><img src="img/Razer03/374_thumb_P_1487829004728.jpg" alt=""/></li>
+          <li><img src="img/Razer03/374_thumb_P_1487829004728.jpg" alt=""/></li>
+        </ul>
+        <a class="forward">></a>
+      </h1>
+      <div class="clear"></div>
+    </div>
+      <!--右：商品信息-->
+    <div id="details">
+      <p style="color: #fff;font-size: 14px">Razer/雷蛇 黑寡妇蜘蛛幻彩版V2 绿轴 机械键盘</p>
+      <p style="color: #999999">雷蛇机械轴 更快触发 磁性腕托</p>
+      <div id="d_select">
+        <p style="color: #fff">请选择</p>
+        <select id="goods_link_select">
+          <option value="374">黑寡妇蜘蛛幻彩版V2 绿轴</option>
+          <option value="375">黑寡妇蜘蛛幻彩版V2 橙轴</option>
+          <option value="376">黑寡妇蜘蛛幻彩版V2 黄轴</option>
+        </select>
+      </div>
+      <h2 style="color: #00FF00;font-size: 15px">￥1499.00</h2>
+      <p style="color: #999999">评价：<span style="color: #ffffff">已有1人评价</span></p>
+      <p style="color: #999999">服务：由雷蛇官方商城负责发货，并提供售后服务</p>
+      <p style="color: #999999">数量：<input type="text" value="1"/></p>
+      <div id="tt_tt">
+        <div id="tt_share" style="display: inline" >
+          <a href="#">
+            <span style="color: #999999">分享商品</span>
+          </a>
+          <ul id="tt_list">
+            <li>
+              <a href="#">新浪微博</a>
+            </li>
+            <li>
+              <a href="#">QQ空间</a>
+            </li>
+            <li>
+              <a href="#">腾讯微博</a>
+            </li>
+          </ul>
+        </div>
+        <div class="location" style="display: inline">
+          <a href="#">
+            <span style="color: #999999">收藏商品(7人气)</span>
+          </a>
+        </div>
+      </div>
+      <a href="#">立即购买&gt;</a>
+      <a href="#">加入购物车&gt;</a>
+    </div>
+  </div>
+  <div class="left">
+    <p> 最近浏览</p>
+    <p> 销量排行榜</p>
+    <ul>
+      <li>
+        <a href="#"><img style="width: 160px;height: 160px;" src="img/Razer03/189_G_1449543527204.jpg" alt=""/></a>
+        <p>炼狱蝰蛇 升级版</p>
+        <span>￥299.00</span>
+      </li>
+      <li>
+        <a href="#"><img style="width: 160px;height: 160px;" src="img/Razer03/72_G_1474602347285.jpg" alt=""/></a>
+        <p>地狱狂蛇 2014</p>
+        <span>￥199.00</span>
+      </li>
+      <li>
+        <a href="#"><img style="width: 160px;height: 160px;" src="img/Razer03/246_G_1472722872607.jpg" alt=""/></a>
+        <p>萨诺狼蛛</p>
+        <span>￥299.00</span>
+      </li>
+    </ul>
+  <!--左-->
+  </div>
+  <div class="productInfo">
+  <!--右-->
+    <ul class="infoNav">
+      <li><a href="#">商品描述</a></li>
+      <li><a href="#">规格参数</a></li>
+      <li><a href="#">商品评价</a></li>
+      <li><a href="#">商品问答</a></li>
+      <li><a href="#">售后服务</a></li>
+    </ul>
+    <!-- 图片-->
+    <div class="infoImg">
+      <img src="img/Razer03/黑寡妇蜘蛛幻彩版V2-880px_01.jpg" alt=""/>
+      <img src="img/Razer03/黑寡妇蜘蛛幻彩版V2-880px_02.jpg" alt=""/>
+      <img src="img/Razer03/黑寡妇蜘蛛幻彩版V2-880px_03.jpg" alt=""/>
+      <img src="img/Razer03/黑寡妇蜘蛛幻彩版V2-880px_04.jpg" alt=""/>
+      <img src="img/Razer03/黑寡妇蜘蛛幻彩版V2-880px_05(1).jpg" alt=""/>
+      <img src="img/Razer03/黑寡妇蜘蛛幻彩版V2-880px_06.jpg" alt=""/>
+      <img src="img/Razer03/黑寡妇蜘蛛幻彩版V2-880px_07.jpg" alt=""/>
+      <img src="img/Razer03/黑寡妇蜘蛛幻彩版V2-880px_08.jpg" alt=""/>
+      <img src="img/Razer03/黑寡妇蜘蛛幻彩版V2-880px_09.jpg" alt=""/>
+      <img src="img/Razer03/黑寡妇蜘蛛幻彩版V2-880px_10.jpg" alt=""/>
+      <img src="img/Razer03/黑寡妇蜘蛛幻彩版V2-880px_11.jpg" alt=""/>
+      <img src="img/Razer03/黑寡妇蜘蛛幻彩版V2-880px_12.jpg" alt=""/>
+      <img src="img/Razer03/黑寡妇蜘蛛幻彩版V2-880px_13.jpg" alt=""/>
+      <img src="img/Razer03/黑寡妇蜘蛛幻彩版V2-880px_14(1).jpg" alt=""/>
+    </div>
+  </div>
+</section>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/store.js"></script>
+</body>
+</html>

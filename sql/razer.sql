@@ -1,0 +1,30 @@
+SET NAMES UTF8;
+DROP DATABASE IF EXISTS razer;
+CREATE DATABASE razer CHARSET=UTF8;
+USE razer;
+
+#创建用户信息表
+CREATE TABLE razer_user(
+	uid INT PRIMARY KEY AUTO_INCREMENT,
+	uname VARCHAR(32),
+	upwd VARCHAR(100),
+	uemail VARCHAR(100),
+	uaddress VARCHAR(100),
+	utel VARCHAR(32),
+	uline VARCHAR(32)
+);
+
+#为razer_user添加一列
+INSERT INTO razer_user VALUES(NULL,"maya","123456","123456@qq.com","AVENUE1101","12345677777","26886413168496");
+
+#用户登陆信息表
+CREATE TABLE r_login(
+	uid INT PRIMARY KEY AUTO_INCREMENT,
+	uname VARCHAR(32),
+	upwd VARCHAR(32)
+);
+
+#为r_login添加数据
+INSERT INTO r_login VALUES(NULL,"maya","123456");
+INSERT INTO r_login VALUES(NULL,"yuki","223456");
+INSERT INTO r_login VALUES(NULL,"daisy","612345");

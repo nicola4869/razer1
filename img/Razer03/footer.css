@@ -1,0 +1,73 @@
+/*start：底部的css*/
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.wrapper .bottom {
+	margin-top: 8px;
+	padding: 10px 10px 20px 10px;
+	overflow: hidden;
+	zoom: 1;
+	color: #FFF;
+	/*margin-bottom: 20px;*/
+	/*border-bottom: 1px solid #333;*/
+	
+}
+
+.bottom .bottomk {
+	float: left;
+	color: #dedede;
+	width: 270px;
+	padding: 10px;
+	line-height: 22px;
+}
+
+.bottom .bottomk  p {
+	font-size: 14px;
+	color: #dedede;
+	/*border-bottom: 1px solid #1f1f1f;*/
+	margin-bottom: 5px;
+}
+
+.bottom .bottomk span {
+	color: #9d9d9d;
+        line-height: 30px;
+        font-size: 14px;
+}
+.bottom .bottomk span a:link{
+	color: #9d9d9d;
+     
+}
+.bottom .bottomk span a:visited{
+	color: #9d9d9d;
+     
+}
+/*end：底部的css*/
+.footer {
+	margin-top: 40px;
+	/*margin-bottom: 40px;*/
+	height: 25px;
+	line-height: 25px;
+	color: #9d9d9d;
+	background: #1f1f1f;
+}
+
+.footer .beian {
+	float: right;
+}
+
+.footer .lianjie {
+	float: right;
+}
+
+/*start：右侧悬浮*/
+.xuanfu {
+	position: absolute;
+	bottom: 150px;
+	right: 10px;
+	z-index: 999;
+	position: fixed;
+}
+/*end：右侧悬浮*/

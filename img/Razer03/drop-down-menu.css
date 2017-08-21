@@ -1,0 +1,87 @@
+#drop-down-menu {
+	/*line-height: 24px;
+	list-style-type: none;*/
+	/*border: 1px solid red;*/
+	/*height: 25px;*/
+	margin-top: 0px;
+}
+#drop-down-menu a {
+	display: block;
+	width: auto;
+	text-align: center;
+}
+
+#drop-down-menu a:link {
+	color: #01ff00;
+	text-decoration: none;
+}
+
+#drop-down-menu a:visited {
+	color: #01ff00;
+	text-decoration: none;
+}
+
+#drop-down-menu a:hover {
+	text-decoration: none;
+}
+
+#drop-down-menu li {
+	float: left;
+	width: 116px;
+	text-align: right;
+	
+}
+
+#drop-down-menu li a:hover {
+}
+
+#drop-down-menu li ul {
+	/*line-height: 30px;*/
+	list-style-type: none;
+	text-align: left;
+	width: 116px;
+	position: absolute;
+	top: 12px;
+	left: -999em;
+	z-index: 999;
+}
+
+#drop-down-menu li ul li {
+	float: left;
+	/*width: 180px;*/
+	background: #171717;
+}
+
+#drop-down-menu li ul a {
+	display: block;
+	width: 96px;
+	text-align: left;
+	padding-left: 12px;
+}
+
+#drop-down-menu li ul a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#drop-down-menu li ul a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+#drop-down-menu li ul a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#drop-down-menu li:hover ul {
+	left: 0;
+}
+
+#drop-down-menu li.sfhover ul {
+	left: 0;
+}
+
+#content {
+	clear: left;
+}
